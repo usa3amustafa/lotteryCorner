@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lottery Corner</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="nav container">
+        <ul class="nav-links">
+          <li>
+            <a href="#" class="nav-link logo"
+              ><img src="./img/logo.png" alt="logo"
+            /></a>
+          </li>
+          <li><a href="#" class="nav-link">home</a></li>
+          <li><a href="#" class="nav-link">lottery systems</a></li>
+          <li><a href="#" class="nav-link">jackpots</a></li>
+          <li><a href="#" class="nav-link">tools</a></li>
+          <li>
+            <a href="#" class="nav-link"
+              >more <i class="fa-solid fa-chevron-down"></i
+            ></a>
+          </li>
+        </ul>
+        <ul class="nav-links">
+          <li>
+            <select name="select-state" id="select-state" class="select-state">
+              <option value="newyork">Select State</option>
+              <option value="newyork">New York</option>
+              <option value="newyork">New York</option>
+              <option value="newyork">New York</option>
+            </select>
+          </li>
+
+          <li class="user-menu">
+            <img src="./img/user-img.png" alt="user image" class="user-img" />
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- adspace -->
+    <div class="ad">
+      <p>ad space 728 * 90</p>
+    </div>
+
+    <!-- lottery result winners  -->
+    <section>
+      <div class="container lottery-winners">
+        <h2 class="section-title dotted-title">USA Lottery Results Winners</h2>
+
+        <div class="powerball">
+          <div class="powerball-left-col">
+            <img
+              src="./img/powerball-sm.png"
+              alt="power ball"
+              class="powerball-img"
+            />
+
+            <div class="powerball-desc powerball-desc-1">
+              <p class="date-day">
+                PowerBall Wednesday- <span class="date">04/09/2022</span>
+              </p>
+
+              <div class="choices">
+                <div class="choice blue-bg">18</div>
+                <div class="choice blue-bg">21</div>
+                <div class="choice blue-bg">12</div>
+                <div class="choice blue-bg">56</div>
+                <div class="choice blue-bg">34</div>
+                <div class="choice red-bg">88</div>
+              </div>
+
+              <div class="bar">
+                <p>power play 2X</p>
+                <p>power ball</p>
+              </div>
+
+              <p class="winnings powerball-desc-1-winnings">$348 million</p>
+            </div>
+          </div>
+          <div class="powerball-right-col">
+            <div class="powerball-desc powerball-desc-2">
+              <p class="date-day">
+                Next PowerBall Draw- <span class="date">04/12/2022</span>
+              </p>
+
+              <p class="winnings powerball-desc-2-winnings">$348 million</p>
+
+              <div class="timer-buy-tickets">
+                <div class="timer">
+                  <div class="time days">
+                    <p class="days-remaining remaining">05</p>
+                    <p class="timer-desc">days</p>
+                  </div>
+                  <div class="time hours">
+                    <p class="hours-remaining remaining">05</p>
+                    <p class="timer-desc">hours</p>
+                  </div>
+                  <div class="time minutes">
+                    <p class="minutes-remaining remaining">05</p>
+                    <p class="timer-desc">minutes</p>
+                  </div>
+                  <div class="time seconds">
+                    <p class="remaining seconds-remaining">05</p>
+                    <p class="timer-desc">seconds</p>
+                  </div>
+                </div>
+
+                <button class="btn sec-btn">buy tickets</button>
+              </div>
+            </div>
+
+            <div class="powerball-tools">
+              <h3 class="powerball-tools-title">powerball tools</h3>
+              <div class="powerball-tools-grid">
+                <div class="tool tool-1">
+                  <img src="./img/jackpot.png" alt="" />
+                  <h4 class="tool-name">jackpot</h4>
+                </div>
+                <div class="tool tool-2">
+                  <img src="./img/history.png" alt="" />
+                  <h4 class="tool-name">history</h4>
+                </div>
+                <div class="tool tool-3">
+                  <img src="./img/jackpot.png" alt="" />
+                  <h4 class="tool-name">jackpot</h4>
+                </div>
+                <div class="tool tool-4">
+                  <img src="./img/jackpot.png" alt="" />
+                  <h4 class="tool-name">jackpot</h4>
+                </div>
+                <div class="tool tool-5">
+                  <img src="./img/analysis.png" alt="" />
+                  <h4 class="tool-name">analysis</h4>
+                </div>
+              </div>
+
+              <div class="powerball-tools-btn-container">
+                <a class="btn powerball-tools-btn">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="powerball">
+          <div class="powerball-left-col">
+            <img
+              src="./img/mega-millions-sm.png"
+              alt="power ball"
+              class="powerball-img"
+            />
+
+            <!-- col 2  -->
+            <div class="powerball-desc powerball-desc-1">
+              <p class="date-day">
+                PowerBall Wednesday- <span class="date">04/09/2022</span>
+              </p>
+
+              <div class="choices">
+                <div class="choice blue-bg">18</div>
+                <div class="choice blue-bg">21</div>
+                <div class="choice blue-bg">12</div>
+                <div class="choice blue-bg">56</div>
+                <div class="choice blue-bg">34</div>
+                <div class="choice red-bg">88</div>
+              </div>
+
+              <div class="bar">
+                <p>power play 2X</p>
+                <p>power ball</p>
+              </div>
+
+              <p class="winnings powerball-desc-1-winnings">$348 million</p>
+            </div>
+          </div>
+          <div class="powerball-right-col">
+            <div class="powerball-desc powerball-desc-2">
+              <p class="date-day">
+                Next PowerBall Draw- <span class="date">04/12/2022</span>
+              </p>
+
+              <p class="winnings powerball-desc-2-winnings">$348 million</p>
+
+              <div class="timer-buy-tickets">
+                <div class="timer">
+                  <div class="time days">
+                    <p class="days-remaining remaining">05</p>
+                    <p class="timer-desc">days</p>
+                  </div>
+                  <div class="time hours">
+                    <p class="hours-remaining remaining">05</p>
+                    <p class="timer-desc">hours</p>
+                  </div>
+                  <div class="time minutes">
+                    <p class="minutes-remaining remaining">05</p>
+                    <p class="timer-desc">minutes</p>
+                  </div>
+                  <div class="time seconds">
+                    <p class="remaining seconds-remaining">05</p>
+                    <p class="timer-desc">seconds</p>
+                  </div>
+                </div>
+
+                <button class="btn sec-btn">buy tickets</button>
+              </div>
+            </div>
+
+            <div class="powerball-tools">
+              <h3 class="powerball-tools-title">powerball tools</h3>
+              <div class="powerball-tools-grid">
+                <div class="tool tool-1">
+                  <img src="./img/jackpot.png" alt="" />
+                  <h4 class="tool-name">jackpot</h4>
+                </div>
+                <div class="tool tool-2">
+                  <img src="./img/history.png" alt="" />
+                  <h4 class="tool-name">history</h4>
+                </div>
+                <div class="tool tool-3">
+                  <img src="./img/jackpot.png" alt="" />
+                  <h4 class="tool-name">jackpot</h4>
+                </div>
+                <div class="tool tool-4">
+                  <img src="./img/jackpot.png" alt="" />
+                  <h4 class="tool-name">jackpot</h4>
+                </div>
+                <div class="tool tool-5">
+                  <img src="./img/analysis.png" alt="" />
+                  <h4 class="tool-name">analysis</h4>
+                </div>
+              </div>
+
+              <div class="powerball-tools-btn-container">
+                <a class="btn powerball-tools-btn">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live Lottery News section -->
+    <section>
+      <div class="container lottery-news-section">
+        <h2 class="section-title dotted-title">Live Lottery News</h2>
+
+        <div class="news-ad">
+          <div class="news">
+            <article class="news-article">
+              <div class="category-date">
+                <p class="category">powerball</p>
+                <p class="date">April 16, 2022</p>
+              </div>
+              <div class="news-body">
+                <div class="news-text">
+                  <h2 class="news-title">
+                    A Man from India has won $34,000 in Power Ball game
+                  </h2>
+                  <p class="news-desc">
+                    Sed commodo velit nisl turpis eu eget cras. Proin quam
+                    curabitur semper egestas cras elit viverra vitae viverra
+                    hsusi jopfje jojpos jhdoj.
+                  </p>
+                </div>
+                <div class="news-img">
+                  <img src="./img/news-img.png" alt="" />
+                </div>
+              </div>
+              <div class="continue-reading-share">
+                <a href="#" class="continue-reading">continue reading</a>
+                <a href="#" class="share">
+                  <i class="fa-solid fa-share-nodes"></i>
+                </a>
+              </div>
+            </article>
+            <article class="news-article">
+              <div class="category-date">
+                <p class="category">powerball</p>
+                <p class="date">April 16, 2022</p>
+              </div>
+              <div class="news-body">
+                <div class="news-text">
+                  <h2 class="news-title">
+                    A Man from India has won $34,000 in Power Ball game
+                  </h2>
+                  <p class="news-desc">
+                    Sed commodo velit nisl turpis eu eget cras. Proin quam
+                    curabitur semper egestas cras elit viverra vitae viverra
+                    hsusi jopfje jojpos jhdoj.
+                  </p>
+                </div>
+                <div class="news-img">
+                  <img src="./img/news-img.png" alt="" />
+                </div>
+              </div>
+              <div class="continue-reading-share">
+                <a href="#" class="continue-reading">continue reading</a>
+                <a href="#" class="share">
+                  <i class="fa-solid fa-share-nodes"></i>
+                </a>
+              </div>
+            </article>
+            <article class="news-article">
+              <div class="category-date">
+                <p class="category">powerball</p>
+                <p class="date">April 16, 2022</p>
+              </div>
+              <div class="news-body">
+                <div class="news-text">
+                  <h2 class="news-title">
+                    A Man from India has won $34,000 in Power Ball game
+                  </h2>
+                  <p class="news-desc">
+                    Sed commodo velit nisl turpis eu eget cras. Proin quam
+                    curabitur semper egestas cras elit viverra vitae viverra
+                    hsusi jopfje jojpos jhdoj.
+                  </p>
+                </div>
+                <div class="news-img">
+                  <img src="./img/news-img.png" alt="" />
+                </div>
+              </div>
+              <div class="continue-reading-share">
+                <a href="#" class="continue-reading">continue reading</a>
+                <a href="#" class="share">
+                  <i class="fa-solid fa-share-nodes"></i>
+                </a>
+              </div>
+            </article>
+            <article class="news-article">
+              <div class="category-date">
+                <p class="category">powerball</p>
+                <p class="date">April 16, 2022</p>
+              </div>
+              <div class="news-body">
+                <div class="news-text">
+                  <h2 class="news-title">
+                    A Man from India has won $34,000 in Power Ball game
+                  </h2>
+                  <p class="news-desc">
+                    Sed commodo velit nisl turpis eu eget cras. Proin quam
+                    curabitur semper egestas cras elit viverra vitae viverra
+                    hsusi jopfje jojpos jhdoj.
+                  </p>
+                </div>
+                <div class="news-img">
+                  <img src="./img/news-img.png" alt="" />
+                </div>
+              </div>
+              <div class="continue-reading-share">
+                <a href="#" class="continue-reading">continue reading</a>
+                <a href="#" class="share">
+                  <i class="fa-solid fa-share-nodes"></i>
+                </a>
+              </div>
+            </article>
+
+            <a href="#" class="read-more-news">Read More News>></a>
+          </div>
+          <div class="ad-vertical"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Welcome to
+Lottery Corner! -->
+    <section>
+      <div class="container welcome-section">
+        <div class="welcome-section-left-col">
+          <h2 class="section-title welcome-section-title">
+            Welcome to
+            <br />
+            <span class="bold-text">Lottery Corner!</span>
+          </h2>
+          <p class="welcome-section-desc">
+            Odio leo sit volutpat ultrices egestas integer. Consequat porttitor
+            habitant tortor fermentum nibh viverra. Ac quis ut a odio ultricies
+            gravida nunc, nulla. Platea felis odio eros, turpis mi, iaculis
+            pharetra. Enim sit tempor, et diam. Faucibus at est pharetra
+            volutpat viverra non aliquet. Felis, lorem bibendum risus tellus vel
+            viverra amet. Id scelerisque ut vivamus tempus pellentesque euismod
+            ipsum.
+          </p>
+
+          <a href="#" class="sec-btn btn">about us</a>
+        </div>
+
+        <div class="welcome-section-middle-col">
+          <div class="middle-col-top-box">
+            <h2 class="top-box-title">1Million+ Visitors</h2>
+            <p class="box-desc">Accumsan magna neque phasellus ipsum.</p>
+          </div>
+          <div class="middle-col-bottom-box">
+            <h2 class="bottom-box-title">1Million+ Visitors</h2>
+            <p class="box-desc">Accumsan magna neque phasellus ipsum.</p>
+          </div>
+        </div>
+
+        <div class="welcome-section-right-col">
+          <div class="right-col-box">
+            <h2 class="right-box-title">1Million+ Visitors</h2>
+            <p class="box-desc">Accumsan magna neque phasellus ipsum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lottery Corner Predictions -->
+    <section class="predictions">
+      <div class="container predictions-section">
+        <h2 class="section-title predictions-section-title">
+          Lottery Corner Predictions
+        </h2>
+
+        <div class="predictions-table">
+          <div class="table-header">
+            <p>System</p>
+            <p>type</p>
+            <p>total hits</p>
+            <p>avg price</p>
+            <p>amount win</p>
+          </div>
+
+          <div class="table-row">
+            <p>drop digit</p>
+            <p>boxed</p>
+            <p>1438</p>
+            <p>$80</p>
+            <p class="amount-win">$115,005.00</p>
+          </div>
+
+          <div class="table-row">
+            <p>magic 8 daily</p>
+            <p>boxed</p>
+            <p>1438</p>
+            <p>$80</p>
+            <p class="amount-win">$115,005.00</p>
+          </div>
+
+          <div class="table-row">
+            <p>drop digit</p>
+            <p>boxed</p>
+            <p>1438</p>
+            <p>$80</p>
+            <p class="amount-win">$115,005.00</p>
+          </div>
+
+          <div class="table-row">
+            <p>drop digit</p>
+            <p>boxed</p>
+            <p class="col-span-3 amount-win">Upto $34000 in 10 Days</p>
+          </div>
+        </div>
+
+        <div class="ad-rectangle"></div>
+      </div>
+    </section>
+
+    <!-- lottery system -->
+    <section>
+      <div class="container lottery-system-section">
+        <h2 class="section-title">Lottery Systems</h2>
+      </div>
+    </section>
+  </body>
+</html>
