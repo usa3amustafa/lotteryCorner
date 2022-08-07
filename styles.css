@@ -884,6 +884,11 @@ nav {
   text-transform: uppercase;
 }
 
+.explore-more-btn {
+  grid-column: 1/-1;
+  margin-top: 3rem;
+}
+
 .next-draw {
   font-weight: 500;
 }
