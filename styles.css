@@ -582,9 +582,17 @@ nav {
   background-color: var(--grey-clr-2);
 }
 
-.predictions-table-row {
+.predictions-row {
   text-transform: capitalize;
   padding: 1rem;
+}
+
+.predictions-table-row {
+  margin-bottom: 0.5rem;
+}
+
+.predictions-table-row:last-child {
+  margin-bottom: none;
 }
 
 .amount-win {
